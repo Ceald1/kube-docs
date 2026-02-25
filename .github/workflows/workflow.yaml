@@ -1,52 +1,40 @@
-name: CI kubeDocss
-
-on: [push]
-
+name: Keep draw.io export synchronized
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**.drawio"
+      - .github/workflows/workflow.yaml
+concurrency:
+  group: drawio-export-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
-  kubeDocss:
+  drawio-export:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Convert kubeDocs file to png image
-      uses: ./
-      with:
-        quality: 100
-        scale: 1.0
-        src: ./kubeDocs.drawio
-        dest: kubeDocs.png
-    - name: Convert kubeDocs file to jpeg image
-      uses: ./
-      with:
-        quality: 100
-        scale: 1.0
-        src: ./kubeDocs.drawio
-        dest: kubeDocs.jpeg
-    - name: Convert kubeDocs file to svg image
-      uses: ./
-      with:
-        scale: 1.0
-        src: ./kubeDocs.drawio
-        dest: kubeDocs.svg
-    - name: Convert kubeDocs file to pdf
-      uses: ./
-      with:
-        scale: 1.0
-        src: ./kubeDocs.drawio
-        dest: kubeDocs.pdf
-    - name: Upload images as artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: png
-        path: kubeDocs.png
-    - uses: actions/upload-artifact@v4
-      with:
-        name: jpeg
-        path: kubeDocs.jpeg
-    - uses: actions/upload-artifact@v4
-      with:
-        name: svg
-        path: kubeDocs.svg
-    - uses: actions/upload-artifact@v4
-      with:
-        name: pdf
-        path: kubeDocs.pdf
+      - name: Checkout sources
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Export drawio files to asciidoctor and png files
+        uses: rlespinasse/drawio-export-action@v2
+        with:
+          format: adoc
+          transparent: true
+          output: drawio-assets
+
+      - name: Get author and committer info from HEAD commit
+        uses: rlespinasse/git-commit-data-action@v1
+        if: github.ref == 'refs/heads/main'
+
+      - name: Commit changed files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "docs: sync draw.io exported files"
+          commit_user_name: "${{ env.GIT_COMMIT_COMMITTER_NAME }}"
+          commit_user_email: "${{ env.GIT_COMMIT_COMMITTER_EMAIL }}"
+          commit_author: "${{ env.GIT_COMMIT_AUTHOR }}"
+        if: github.ref == 'refs/heads/main'
