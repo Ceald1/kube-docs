@@ -1,0 +1,52 @@
+name: CI kubeDocss
+
+on: [push]
+
+jobs:
+  kubeDocss:
+    runs-on: ubuntu-lakubeDocs
+    steps:
+    - uses: actions/checkout@v2
+    - name: Convert kubeDocs file to png image
+      uses: ./
+      with:
+        quality: 100
+        scale: 1.0
+        src: kubeDocs.drawio
+        dest: kubeDocs.png
+    - name: Convert kubeDocs file to jpeg image
+      uses: ./
+      with:
+        quality: 100
+        scale: 1.0
+        src: kubeDocs.drawio
+        dest: kubeDocs.jpeg
+    - name: Convert kubeDocs file to svg image
+      uses: ./
+      with:
+        scale: 1.0
+        src: kubeDocs.drawio
+        dest: kubeDocs.svg
+    - name: Convert kubeDocs file to pdf
+      uses: ./
+      with:
+        scale: 1.0
+        src: kubeDocs.drawio
+        dest: kubeDocs.pdf
+    - name: Upload images as artifacts
+      uses: actions/upload-artifact@v1
+      with:
+        name: png
+        path: kubeDocs.png
+    - uses: actions/upload-artifact@v1
+      with:
+        name: jpeg
+        path: kubeDocs.jpeg
+    - uses: actions/upload-artifact@v1
+      with:
+        name: svg
+        path: kubeDocs.svg
+    - uses: actions/upload-artifact@v1
+      with:
+        name: pdf
+        path: kubeDocs.pdf
