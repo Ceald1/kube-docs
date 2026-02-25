@@ -24,17 +24,29 @@ jobs:
         format: png
         output: exports
 
+    - name: Export as PNG
+      uses: rlespinasse/drawio-export-action@v2
+      with:
+        path: .
+        format: png
+        output: exports
+        action-mode: all
+
     - name: Export as SVG
       uses: rlespinasse/drawio-export-action@v2
       with:
+        path: .
         format: svg
         output: exports
+        action-mode: all
 
     - name: Export as PDF
       uses: rlespinasse/drawio-export-action@v2
       with:
+        path: .
         format: pdf
         output: exports
+        action-mode: all
 
     - name: Commit and push exports
       run: |
