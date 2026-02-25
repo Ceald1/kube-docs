@@ -4,10 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-62" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=13;spacing=0;strokeColor=#fcce14;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#fff3d9;strokeWidth=1.5;lucidId=ocNzhw6ZJzNM;" value="" vertex="1">
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-62" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=13;spacing=0;strokeColor=light-dark(#e5c890, #6a4200);strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=light-dark(#EF9F76,#EF9F76);strokeWidth=1.5;lucidId=ocNzhw6ZJzNM;" value="" vertex="1">
           <mxGeometry height="660" width="240" x="-173" y="142" as="geometry" />
         </mxCell>
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-63" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=1.5;lucidId=ocNzA8SOEKpi;fillColor=light-dark(#B9E0A5,#97D077);strokeColor=#B9E0A5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" value="" vertex="1">
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-63" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=1.5;lucidId=ocNzA8SOEKpi;fillColor=light-dark(#A6D189,#A6D189);strokeColor=light-dark(#81C8BE,#81C8BE);align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" value="" vertex="1">
           <mxGeometry height="885" width="991" x="112" y="157" as="geometry" />
         </mxCell>
         <mxCell id="DmrmdMsg5aCZBTO2InfD-64" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rounded=1;absoluteArcSize=1;arcSize=24;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=0;fillColor=#000000;strokeWidth=1.5;lucidId=ocNz2yFfjsdb;" value="" vertex="1">
@@ -16,7 +16,7 @@
         <mxCell id="DmrmdMsg5aCZBTO2InfD-65" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rounded=1;absoluteArcSize=1;arcSize=24;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=0;fillColor=#000000;strokeWidth=1.5;lucidId=ocNza-u16tJQ;" value="" vertex="1">
           <mxGeometry height="540" width="300" x="202" y="397" as="geometry" />
         </mxCell>
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-66" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=13;spacing=0;strokeColor=#unset;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=default;strokeWidth=NaN;lucidId=ocNz~QPw_Jz7;" value="" vertex="1">
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-66" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=13;spacing=0;strokeColor=#unset;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#8CAAEE;strokeWidth=NaN;lucidId=ocNz~QPw_Jz7;" value="" vertex="1">
           <mxGeometry height="1350" width="405" x="1252" y="-128" as="geometry" />
         </mxCell>
         <mxCell id="DmrmdMsg5aCZBTO2InfD-67" parent="1" style="overflow=block;blockSpacing=1;whiteSpace=wrap;image;aspect=fixed;html=1;align=center;image=img/lib/mscae/Kubernetes.svg;fontSize=18.3;spacing=0;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#326ce5;strokeWidth=1.5;lucidId=ocNzwP2NsMu~;" value="Suzaku" vertex="1">
@@ -127,16 +127,16 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-97" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=default;strokeWidth=NaN;lucidId=ocNzbQeDv6hz;" value="flannel is present on all worker nodes in the cluster" vertex="1">
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-97" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#ca9ee6, #ededed);strokeWidth=NaN;lucidId=ocNzbQeDv6hz;" value="flannel is present on all worker nodes in the cluster" vertex="1">
           <mxGeometry height="169" width="169" x="948" y="916" as="geometry" />
         </mxCell>
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-98" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=default;strokeWidth=NaN;lucidId=ocNzroe0-9fX;" value="All control nodes are currently also worker and etcd nodes" vertex="1">
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-98" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#f2d5cf, #ededed);strokeWidth=NaN;lucidId=ocNzroe0-9fX;" value="All control nodes are currently also worker and etcd nodes" vertex="1">
           <mxGeometry height="120" width="120" x="-218" y="772" as="geometry" />
         </mxCell>
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-99" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=default;strokeWidth=NaN;lucidId=ocNzcbS4chsa;" value="node 2" vertex="1">
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-99" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=#EEBEBE;strokeWidth=NaN;lucidId=ocNzcbS4chsa;" value="node 2" vertex="1">
           <mxGeometry height="120" width="120" x="607" y="457" as="geometry" />
         </mxCell>
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-100" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=default;strokeWidth=NaN;lucidId=ocNzRGwWwv-R;" value="node 1" vertex="1">
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-100" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#F2D5CF,#EDEDED);strokeWidth=NaN;lucidId=ocNzRGwWwv-R;" value="node 1" vertex="1">
           <mxGeometry height="120" width="120" x="412" y="457" as="geometry" />
         </mxCell>
         <mxCell id="DmrmdMsg5aCZBTO2InfD-101" parent="1" style="overflow=block;blockSpacing=1;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=svc;fontSize=18.3;spacing=0;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#326ce5;strokeWidth=1.5;strokeColor=none;lucidId=ocNz.BkBVG20;" value="Service" vertex="1">
@@ -175,13 +175,13 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-111" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=default;strokeWidth=NaN;lucidId=ocNzPtq.cHZj;" value="Client Requests for host" vertex="1">
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-111" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#ca9ee6, #ededed);strokeWidth=NaN;lucidId=ocNzPtq.cHZj;" value="Client Requests for host" vertex="1">
           <mxGeometry height="120" width="120" x="1491" y="-68" as="geometry" />
         </mxCell>
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-112" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=default;strokeWidth=NaN;lucidId=ocNzm2n30GIJ;" value="DNS Points to Kube VIP for the IP associated with the hostname" vertex="1">
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-112" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#a6d189, #ededed);strokeWidth=NaN;lucidId=ocNzm2n30GIJ;" value="DNS Points to Kube VIP for the IP associated with the hostname" vertex="1">
           <mxGeometry height="150" width="150" x="1492" y="157" as="geometry" />
         </mxCell>
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-113" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=default;strokeWidth=NaN;lucidId=ocNzI6VCrNN7;" value="Ingress routes to service" vertex="1">
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-113" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#f2d5cf, #ededed);strokeWidth=NaN;lucidId=ocNzI6VCrNN7;" value="Ingress routes to service" vertex="1">
           <mxGeometry height="120" width="120" x="1507" y="665" as="geometry" />
         </mxCell>
         <mxCell id="DmrmdMsg5aCZBTO2InfD-114" edge="1" parent="1" source="DmrmdMsg5aCZBTO2InfD-109" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#3a414a;strokeOpacity=100;strokeWidth=3;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;lucidId=ocNzmiS6ecU-;" target="DmrmdMsg5aCZBTO2InfD-107" value="">
@@ -199,10 +199,10 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-117" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=default;strokeWidth=NaN;lucidId=ocNzzx-sO.4R;" value="Kube VIP IP Hosts Ingress" vertex="1">
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-117" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#85c1dc, #ededed);strokeWidth=NaN;lucidId=ocNzzx-sO.4R;" value="Kube VIP IP Hosts Ingress" vertex="1">
           <mxGeometry height="120" width="120" x="1507" y="395" as="geometry" />
         </mxCell>
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-118" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=default;strokeWidth=NaN;lucidId=ocNzOhlx8xOR;" value="services in Kubernetes are exposed with ingress controllers for safety and security. They also allow for multiple services to be exposed on one ingress controller" vertex="1">
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-118" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#e5c890, #ededed);strokeWidth=NaN;lucidId=ocNzOhlx8xOR;" value="services in Kubernetes are exposed with ingress controllers for safety and security. They also allow for multiple services to be exposed on one ingress controller" vertex="1">
           <mxGeometry height="154" width="248" x="1462" y="-234" as="geometry" />
         </mxCell>
         <mxCell id="DmrmdMsg5aCZBTO2InfD-119" parent="1" style="overflow=block;blockSpacing=1;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=sched;fontSize=18.3;spacing=0;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#326ce5;strokeWidth=1.5;strokeColor=none;lucidId=ocNzYopEasjf;" value="Scheduler" vertex="1">
