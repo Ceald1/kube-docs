@@ -16,6 +16,8 @@ jobs:
       with:
         fetch-depth: 0
 
+    - name: prep
+      run: mkdir -p ./exports
     - name: Export as PNG
       uses: rlespinasse/drawio-export-action@v2
       with:
