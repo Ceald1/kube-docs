@@ -1,12 +1,20 @@
 name: CI kubeDocss
 
-on: [push]
+on:
+  push:
+    paths-ignore:
+      - 'exports/**'
+
+permissions:
+  contents: write
 
 jobs:
   kubeDocss:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - name: Export as PNG
       uses: rlespinasse/drawio-export-action@v2
