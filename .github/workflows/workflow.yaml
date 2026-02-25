@@ -1,40 +1,35 @@
-name: Keep draw.io export synchronized
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - "**.drawio"
-      - .github/workflows/workflow.yaml
-concurrency:
-  group: drawio-export-${{ github.ref }}
-  cancel-in-progress: true
+name: CI kubeDocss
+
+on: [push]
+
 jobs:
-  drawio-export:
+  kubeDocss:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout sources
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v4
 
-      - name: Export drawio files to asciidoctor and png files
-        uses: rlespinasse/drawio-export-action@v2
-        with:
-          format: adoc
-          transparent: true
-          output: drawio-assets
+    - name: Export as PNG
+      uses: rlespinasse/drawio-export-action@v2
+      with:
+        format: png
+        output: exports
 
-      - name: Get author and committer info from HEAD commit
-        uses: rlespinasse/git-commit-data-action@v1
-        if: github.ref == 'refs/heads/main'
+    - name: Export as SVG
+      uses: rlespinasse/drawio-export-action@v2
+      with:
+        format: svg
+        output: exports
 
-      - name: Commit changed files
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "docs: sync draw.io exported files"
-          commit_user_name: "${{ env.GIT_COMMIT_COMMITTER_NAME }}"
-          commit_user_email: "${{ env.GIT_COMMIT_COMMITTER_EMAIL }}"
-          commit_author: "${{ env.GIT_COMMIT_AUTHOR }}"
-        if: github.ref == 'refs/heads/main'
+    - name: Export as PDF
+      uses: rlespinasse/drawio-export-action@v2
+      with:
+        format: pdf
+        output: exports
+
+    - name: Commit and push exports
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add exports/
+        git diff --staged --quiet || git commit -m "chore: update draw.io exports"
+        git push
