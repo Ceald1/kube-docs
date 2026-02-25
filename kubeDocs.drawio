@@ -173,7 +173,7 @@
         <mxCell id="DmrmdMsg5aCZBTO2InfD-108" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;spacing=0;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=default;strokeWidth=1.5;lucidId=ocNzRHpw9OL8;" value="Client" vertex="1">
           <mxGeometry height="72" width="90" x="1401" y="-98" as="geometry" />
         </mxCell>
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-109" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=18.3;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#5ea0ef;strokeWidth=1.5;lucidId=ocNzUzc1YZ.G;" value="DNS" vertex="1">
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-109" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=18.3;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#5ea0ef;strokeWidth=1.5;lucidId=ocNzUzc1YZ.G;labelBackgroundColor=none;" value="DNS" vertex="1">
           <mxGeometry height="90" width="90" x="1401" y="67" as="geometry" />
         </mxCell>
         <mxCell id="DmrmdMsg5aCZBTO2InfD-110" edge="1" parent="1" source="DmrmdMsg5aCZBTO2InfD-108" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#3a414a;strokeOpacity=100;strokeWidth=3;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;lucidId=ocNzZXOK4Xew;" target="DmrmdMsg5aCZBTO2InfD-109" value="">
