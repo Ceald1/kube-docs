@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.5.3">
   <diagram name="Page-1" id="s8dyG-f5wJ040BQtrERm">
-    <mxGraphModel dx="2276" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel dx="2276" dy="1893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -229,7 +229,7 @@
         <mxCell id="DmrmdMsg5aCZBTO2InfD-142" edge="1" parent="1" source="DmrmdMsg5aCZBTO2InfD-140" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="DmrmdMsg5aCZBTO2InfD-119">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-140" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="Kube VIP IP (10.3.21.1)" vertex="1">
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-140" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="Kube VIP IP (10.3.21.100)" vertex="1">
           <mxGeometry height="97" width="240" x="1800" y="240" as="geometry" />
         </mxCell>
         <mxCell id="DmrmdMsg5aCZBTO2InfD-143" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#85c1dc, #ededed);strokeWidth=NaN;lucidId=ocNzzx-sO.4R;" value="Control Plane API Architecture" vertex="1">
@@ -237,9 +237,6 @@
         </mxCell>
         <mxCell id="DmrmdMsg5aCZBTO2InfD-147" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#ca9ee6, #ededed);strokeWidth=NaN;lucidId=ocNzPtq.cHZj;" value="Control Plane Nodes" vertex="1">
           <mxGeometry height="70" width="140" x="-218" y="102" as="geometry" />
-        </mxCell>
-        <mxCell id="lqGWR2-01F12hkZbSKnB-1" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#85c1dc, #ededed);strokeWidth=NaN;lucidId=ocNzzx-sO.4R;" value="This is consistent among the control plane" vertex="1">
-          <mxGeometry height="120" width="120" x="2010" y="580" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
