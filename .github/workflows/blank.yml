@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   kubeDocss:
-    runs-on: ubuntu-lakubeDocs
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Convert kubeDocs file to png image
