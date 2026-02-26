@@ -205,8 +205,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DmrmdMsg5aCZBTO2InfD-117" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#85c1dc, #ededed);strokeWidth=NaN;lucidId=ocNzzx-sO.4R;" value="Kube VIP IP Hosts Ingress" vertex="1">
-          <mxGeometry height="120" width="120" x="1507" y="395" as="geometry" />
+        <mxCell id="DmrmdMsg5aCZBTO2InfD-117" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#85c1dc, #ededed);strokeWidth=NaN;lucidId=ocNzzx-sO.4R;" value="A Kube VIP IP Hosts Ingress (different from 10.3.21.1)" vertex="1">
+          <mxGeometry height="155" width="120" x="1507" y="395" as="geometry" />
         </mxCell>
         <mxCell id="DmrmdMsg5aCZBTO2InfD-118" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#e5c890, #ededed);strokeWidth=NaN;lucidId=ocNzOhlx8xOR;" value="services in Kubernetes are exposed with ingress controllers for safety and security. They also allow for multiple services to be exposed on one ingress controller" vertex="1">
           <mxGeometry height="154" width="248" x="1462" y="-234" as="geometry" />
