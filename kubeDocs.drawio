@@ -289,6 +289,9 @@
         <mxCell id="nyrS6nEUNlL71KJiZFFI-30" parent="nyrS6nEUNlL71KJiZFFI-16" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#9673a6;fillColor=#e1d5e7;strokeWidth=NaN;lucidId=ocNzzx-sO.4R;" value="Manage storage" vertex="1">
           <mxGeometry height="120" width="120" x="360" y="553" as="geometry" />
         </mxCell>
+        <mxCell id="nyrS6nEUNlL71KJiZFFI-31" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#ca9ee6, #ededed);strokeWidth=NaN;lucidId=ocNzPtq.cHZj;" value="K8s infrastructure" vertex="1">
+          <mxGeometry height="70" width="140" x="2330" y="52" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
