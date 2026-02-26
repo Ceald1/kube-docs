@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.5.3">
   <diagram name="Page-1" id="s8dyG-f5wJ040BQtrERm">
-    <mxGraphModel dx="2276" dy="1978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel dx="2887" dy="2354" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -334,8 +334,18 @@
         <mxCell id="-YryS1-5lM9lT1ylZn77-19" parent="nyrS6nEUNlL71KJiZFFI-16" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=NaN;lucidId=ocNzzx-sO.4R;" value="Agents send telemetry" vertex="1">
           <mxGeometry height="120" width="120" x="1140" y="908" as="geometry" />
         </mxCell>
-        <mxCell id="nyrS6nEUNlL71KJiZFFI-31" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#ca9ee6, #ededed);strokeWidth=NaN;lucidId=ocNzPtq.cHZj;" value="K8s infrastructure" vertex="1">
-          <mxGeometry height="70" width="140" x="2330" y="52" as="geometry" />
+        <mxCell id="-YryS1-5lM9lT1ylZn77-20" edge="1" parent="nyrS6nEUNlL71KJiZFFI-16" source="-YryS1-5lM9lT1ylZn77-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.606;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="-YryS1-5lM9lT1ylZn77-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-320" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YryS1-5lM9lT1ylZn77-21" parent="nyrS6nEUNlL71KJiZFFI-16" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=NaN;lucidId=ocNzzx-sO.4R;" value="Agents send telemetry" vertex="1">
+          <mxGeometry height="120" width="120" x="451.5" y="1036.17" as="geometry" />
+        </mxCell>
+        <mxCell id="nyrS6nEUNlL71KJiZFFI-31" parent="nyrS6nEUNlL71KJiZFFI-16" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#ca9ee6, #ededed);strokeWidth=NaN;lucidId=ocNzPtq.cHZj;" value="K8s infrastructure" vertex="1">
+          <mxGeometry height="70" width="140" x="10" y="-30" as="geometry" />
         </mxCell>
         <mxCell id="nyrS6nEUNlL71KJiZFFI-32" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shadow=1;fontSize=16.7;spacing=9;strokeColor=#unset;fillColor=light-dark(#85c1dc, #ededed);strokeWidth=NaN;lucidId=ocNzzx-sO.4R;" value="Kube VIP is voted and broadcasting on highest available node" vertex="1">
           <mxGeometry height="120" width="120" x="1950" y="142" as="geometry" />
