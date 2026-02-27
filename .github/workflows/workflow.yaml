@@ -47,7 +47,13 @@ jobs:
         format: pdf
         output: exports
         action-mode: all
-
+    - name: Export as jpeg
+      uses: rlespinasse/drawio-export-action@v2
+      with:
+        path: .
+        format: jpeg
+        output: exports
+        action-mode: all
     - name: Commit and push exports
       run: |
         git config user.name "github-actions[bot]"
