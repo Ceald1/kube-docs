@@ -18,11 +18,7 @@ jobs:
 
     - name: prep
       run: mkdir -p ./exports
-#    - name: Export as PNG
-#      uses: rlespinasse/drawio-export-action@v2
-#      with:
-#        format: png
-#        output: exports
+
 
     - name: Export as PNG
       uses: rlespinasse/drawio-export-action@v2
